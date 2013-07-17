@@ -27,7 +27,7 @@ arch=('armv6h' 'i686' 'x86_64')
 depends=('curl')
 conflicts=('cgminer' 'cgminer-git-adl')
 makedepends=('git')
-optdepends=('ncurses: For ncurses formatted screen output'
+optdepends=('ncurses: For ncurses formatted screen output')
 
 source=("git+https://github.com/ckolivas/cgminer.git"
         "$_gitname.conf.d::https://projects.archlinux.org/svntogit/community.git/plain/trunk/cgminer.conf.d?h=packages/cgminer"
